@@ -1,0 +1,7 @@
+// @param {string} $files
+// @param {boolean} [$suffix]
+// @return {list}
+// @api public
+@function x-ls($files, $suffix: true) {
+    @return x_compass_ls($files, $suffix);
+}
